@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap");
+main h1 {
+  color: red;
+  height: 30px;
+}
+
+nav {
+  background-color: aqua;
+  box-shadow: 2px 2px 2px 2px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  padding: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* TIPOGRAFIAS */
+/* font-family: "DM Serif Display", serif; */
+/* font-family: "DM Sans", sans-serif; */
+/* RESETEO DE ESTILO BY DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+main h1 {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+}
+
+/* ----   nav -----  */
+/* Basic CSS for the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #363333;
+}
+
+li {
+  float: inline-start;
+}
+
+li a {
+  display: inline-flex;
+  color: #ee3a3a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: wavy;
+}
+
+li a:hover {
+  background-color: #f7efef;
+}
+
+/* Card styles */
+.card {
+  width: auto;
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+/* contact form */
+.container {
+  max-width: 600px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type=text],
+.form-group input[type=email],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 120px;
+}
+
+.form-group input[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group input[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+/* ------- main general-------  *//*# sourceMappingURL=main.css.map */
