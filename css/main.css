@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .logo img {
+  width: 200px;
+}
+.header .nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header .nav ul li a {
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
